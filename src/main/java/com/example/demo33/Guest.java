@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 public class Guest {
@@ -19,7 +19,7 @@ public class Guest {
     private boolean checkedIn = false;
     private int checkinCount = 0;
     private String ticketType;
-    private LocalDate checkInDate;
+    private LocalDateTime checkInDate;
 
     // BẮT BUỘC PHẢI CÓ HÀM KHỞI TẠO RỖNG CHO SPRING BOOT
     public Guest() {}
@@ -46,6 +46,6 @@ public class Guest {
     public String getTicketType() { return ticketType; }
     public void setTicketType(String ticketType) { this.ticketType = ticketType; }
 
-    public LocalDate getCheckInDate() { return checkInDate; }
-    public void setCheckInDate(LocalDate checkInDate) { this.checkInDate = checkInDate; }
+    public LocalDateTime getCheckInDate() { return checkInDate; }
+    public void setCheckInDate(LocalDateTime checkInDate) { this.checkInDate = checkInDate; }
 }

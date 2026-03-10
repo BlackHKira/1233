@@ -1,30 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4171b23f-2034-4db1-a973-640e17e91dcf" name="Changes" comment="" />
+    <list default="true" id="d0c2bc24-7b84-4daf-a8c4-dc0bc84f2428" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/CheckIn/KafkaCheckinConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/CheckIn/KafkaCheckinConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/Demo33Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/Demo33Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/GuestDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/GuestDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/GuestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/GuestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/GuestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/GuestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/controllers/CheckinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/controllers/CheckinController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo33/controllers/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo33/controllers/GuestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="3AjbRjQ7gZq3ruKNBsga4bOPzqH" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BlackHKira&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BlackHKira/demo.git&quot;,
+    &quot;accountId&quot;: &quot;42d404a8-cd25-4d51-95d6-23e4fa67f4ab&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/4.0.3/spring-data-commons-4.0.3.jar!/org/springframework/data/repository/CrudRepository.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/7.0.5/spring-web-7.0.5-sources.jar!/org/springframework/http/ResponseEntity.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/7.0.5/spring-web-7.0.5.jar!/org/springframework/http/ResponseEntity.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3AWQWmpanTwxE0GZTkpFq5tzjZb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.demo33 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo33 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo33 [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Demo33Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HHoang/demo33&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\OS1\IdeaProjects\demo33\src\main\java\com\example\demo33" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Demo33Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo33" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo33.Demo33Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -35,11 +124,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4171b23f-2034-4db1-a973-640e17e91dcf" name="Changes" comment="" />
-      <created>1773108920692</created>
+      <changelist id="d0c2bc24-7b84-4daf-a8c4-dc0bc84f2428" name="Changes" comment="" />
+      <created>1772705881143</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1773108920692</updated>
+      <updated>1772705881143</updated>
+      <workItem from="1772705885216" duration="4666000" />
+      <workItem from="1772765479772" duration="13121000" />
+      <workItem from="1773021424370" duration="7909000" />
+      <workItem from="1773029480278" duration="9788000" />
+      <workItem from="1773104324850" duration="5093000" />
     </task>
     <servers />
   </component>

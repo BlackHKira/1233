@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Service
 public class GuestService {
@@ -54,7 +54,7 @@ public class GuestService {
             if (guest.getCheckinCount() + tongNguoiVao <= gioiHanCuaVe) {
                 guest.setCheckinCount(guest.getCheckinCount() + tongNguoiVao);
                 guest.setCheckedIn(true);
-                guest.setCheckInDate(LocalDate.now());
+                guest.setCheckInDate(LocalDateTime.now());
 
                 postgresRepo.save(guest);
                 elasticRepo.save(new GuestDocument(guest));
@@ -79,7 +79,7 @@ public class GuestService {
             if (guest.getCheckinCount() + tongNguoiVao <= gioiHanCuaVe) {
                 guest.setCheckinCount(guest.getCheckinCount() + tongNguoiVao);
                 guest.setCheckedIn(true);
-                guest.setCheckInDate(LocalDate.now());
+                guest.setCheckInDate(LocalDateTime.now());
 
                 postgresRepo.save(guest);
                 elasticRepo.save(new GuestDocument(guest));
