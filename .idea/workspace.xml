@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0c2bc24-7b84-4daf-a8c4-dc0bc84f2428" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/docker-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker-publish.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,7 @@
       <workItem from="1773113183522" duration="1583000" />
       <workItem from="1773115218411" duration="97000" />
       <workItem from="1773115387531" duration="4269000" />
-      <workItem from="1773125260429" duration="2294000" />
+      <workItem from="1773125260429" duration="2508000" />
     </task>
     <servers />
   </component>
