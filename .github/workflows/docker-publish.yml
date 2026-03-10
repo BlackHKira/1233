@@ -29,4 +29,4 @@ jobs:
           context: .
           push: true
           # Thay 'tentaikhoan' bằng tên DOCKERHUB_USERNAME của bạn
-          tags: blackhkira/guest-service:latest
+          tags: BLACKHKIRA/guest-service:latest
