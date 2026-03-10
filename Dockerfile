@@ -16,7 +16,7 @@ WORKDIR /app
 
 # Copy DUY NHẤT file .jar từ giai đoạn 'builder' ở trên xuống đây
 # Thay 'guest-service-0.0.1-SNAPSHOT.jar' bằng tên file jar thực tế của bạn
-COPY --from=builder /app/target/guest-service-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=builder /app/target/*.jar app.jar
 
 EXPOSE 8080
 

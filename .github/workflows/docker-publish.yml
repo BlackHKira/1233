@@ -1,0 +1,32 @@
+name: CI/CD Pipeline - Guest Service
+
+# Kịch bản này sẽ tự động kích hoạt mỗi khi có người đẩy code mới lên nhánh 'main'
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-push:
+    # Mượn một máy chủ hệ điều hành Ubuntu siêu mạnh của GitHub để chạy
+    runs-on: ubuntu-latest
+
+    steps:
+      # Bước 1: Tải toàn bộ mã nguồn hiện tại về máy chủ Ubuntu đó
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Bước 2: Dùng 2 chiếc chìa khóa bí mật để đăng nhập vào Docker Hub
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # Bước 3: Lệnh Build và Push Image (Y hệt những gì bạn vừa làm tay)
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          # Thay 'tentaikhoan' bằng tên DOCKERHUB_USERNAME của bạn
+          tags: blackhkira/guest-service:latest
