@@ -67,4 +67,5 @@ public class GuestController {
         guestRepository.deleteAll();
         return ResponseEntity.ok("Đã xóa sạch dữ liệu khách mời!");
     }
+
 }

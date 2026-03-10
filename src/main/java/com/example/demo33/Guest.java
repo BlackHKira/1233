@@ -22,7 +22,7 @@ public class Guest {
     private LocalDateTime checkInDate;
 
     // BẮT BUỘC PHẢI CÓ HÀM KHỞI TẠO RỖNG CHO SPRING BOOT
-    public Guest() {}
+    public Guest(String testId, String khảiDevOps, String mail) {}
 
     // --- CÁC HÀM GETTER / SETTER ---
     public Long getId() { return id; }
