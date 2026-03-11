@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/guests")
+@CrossOrigin
 public class GuestController {
 
     private final GuestService guestService;
